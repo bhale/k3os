@@ -13,7 +13,4 @@ jobs:
     - name: Build the image
       run: make
     - name: Run the image
-      run: bash ./scripts/dist
-      with:
-        name: dist
-        path: dist
+      run: bash ./scripts/run
